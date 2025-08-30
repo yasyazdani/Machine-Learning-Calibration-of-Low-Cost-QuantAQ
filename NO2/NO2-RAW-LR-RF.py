@@ -1,6 +1,6 @@
 # I changed the name of csv files from QuantAQ website to:
-# R-???. csv where ??? is the sensor ID and R is Raw data
-# F-???.cav where ??? is the sensor ID and F is Final data data
+# R-???.csv where ??? is the sensor ID and R is Raw data
+# F-???.cav where ??? is the sensor ID and F is Final data 
 # I didnt change the name of hdf files
 # Assuing  all files and this code are in the same directory
 # I am removing the negative voltage differnce in quantaq data
