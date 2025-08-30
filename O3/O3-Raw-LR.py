@@ -138,18 +138,6 @@ for f in csv_files:
     sensor_datasets[label] = df_full
 
 
-# def split_all_sensors(sensor_datasets, start_date, end_date, feature_cols, months=1):
-#     splits = {}
-#     split_date = start_date + pd.DateOffset(months=months)
-#     for label, df in sensor_datasets.items():
-#         train_df = df[(df["Time_ISO"] >= start_date) & (df["Time_ISO"] < split_date)]
-#         test_df  = df[(df["Time_ISO"] >= split_date) & (df["Time_ISO"] < end_date)]
-#         train_df = train_df.dropna(subset=feature_cols + ["target"])
-#         test_df  = test_df.dropna(subset=feature_cols + ["target"])
-#         X_train, y_train = train_df[feature_cols].values, train_df["target"].values
-#         X_test,  y_test  = test_df[feature_cols].values,  test_df["target"].values
-#         splits[label] = (train_df, test_df, X_train, y_train, X_test, y_test)
-#     return splits
 
 def split_all_sensors(sensor_datasets, start_date, end_date, feature_cols, train_ratio=0.7):
     splits = {}
