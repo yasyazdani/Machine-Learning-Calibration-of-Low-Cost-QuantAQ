@@ -1090,23 +1090,23 @@ def plot_residuals_vs_reference(
 # Plot corrected NO for linear regression
 # —————————————————————————————
 
-# plot_sensors_vs_t200u(results_corrected, out_file="sensors_vs_t200u_corr.png")
-# plot_residuals_subplot(results_corrected,   ref_var="NO_corr")
-# plot_residuals_histogram(results_corrected, ref_var="NO_corr")
-# plot_residuals_vs_temp_subplot(results_corrected, ref_var="NO_corr")
-# plot_residuals_colored_by_temp(results_corrected,  ref_var="NO_corr")
-# plot_residuals_vs_reference(results_corrected,"NO_corr", main_arguments)
+plot_sensors_vs_t200u(results_corrected, out_file="sensors_vs_t200u_corr.png")
+plot_residuals_subplot(results_corrected,   ref_var="NO_corr")
+plot_residuals_histogram(results_corrected, ref_var="NO_corr")
+plot_residuals_vs_temp_subplot(results_corrected, ref_var="NO_corr")
+plot_residuals_colored_by_temp(results_corrected,  ref_var="NO_corr")
+plot_residuals_vs_reference(results_corrected,"NO_corr", main_arguments)
 
 
 # —————————————————————————————
 # Plot corrected NO for Random forest
 # —————————————————————————————
 
-# plot_sensors_vs_t200u(results_rf , out_file="sensors_vs_t200u_corr.png")
-# plot_residuals_subplot(results_rf,   ref_var="NO_corr")
-# plot_residuals_histogram(results_rf, ref_var="NO_corr")
-# plot_residuals_vs_temp_subplot(results_rf, ref_var="NO_corr")
-# plot_residuals_colored_by_temp(results_rf,  ref_var="NO_corr")
-# plot_residuals_vs_reference(results_rf,  "NO_corr", main_args=main_arguments)
+plot_sensors_vs_t200u(results_rf , out_file="sensors_vs_t200u_corr.png")
+plot_residuals_subplot(results_rf,   ref_var="NO_corr")
+plot_residuals_histogram(results_rf, ref_var="NO_corr")
+plot_residuals_vs_temp_subplot(results_rf, ref_var="NO_corr")
+plot_residuals_colored_by_temp(results_rf,  ref_var="NO_corr")
+plot_residuals_vs_reference(results_rf,  "NO_corr", main_args=main_arguments)
 
 
