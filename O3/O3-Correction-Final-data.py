@@ -1,6 +1,5 @@
 
-# this script applies different linear correction on the final data reported by quantaq website for o3
-# I did not change the name of hdf files
+# this script applies different linear correction on the final data reported by quantaq website for O3
 # name of quantaq final data file are : "MOD-*-York.csv" where * is the sensor ID
 
 import os
