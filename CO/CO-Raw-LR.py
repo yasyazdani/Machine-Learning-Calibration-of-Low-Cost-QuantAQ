@@ -1,8 +1,5 @@
 # I changed the name of csv files from QuantAQ website to:
 # R-???.csv where ??? is the sensor ID and R is Raw data
-# I didn't change the name of hdf files
-# Assuming all files and this code are in the same directory
-
 
 
 import os
